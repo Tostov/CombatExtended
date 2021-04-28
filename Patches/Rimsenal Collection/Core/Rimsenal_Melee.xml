@@ -94,11 +94,11 @@
 							<capacities>
 								<li>Cut</li>
 							</capacities>
-							<power>16</power>
-							<cooldownTime>1.67</cooldownTime>
+							<power>34</power>
+							<cooldownTime>1.11</cooldownTime>
 							<chanceFactor>1.33</chanceFactor>
-							<armorPenetrationSharp>0.65</armorPenetrationSharp>
-							<armorPenetrationBlunt>0.65</armorPenetrationBlunt>							
+							<armorPenetrationSharp>2.02</armorPenetrationSharp>
+							<armorPenetrationBlunt>3.025</armorPenetrationBlunt>							
 							<linkedBodyPartsGroup>Edge</linkedBodyPartsGroup>
 						</li>						
 					</tools>
@@ -107,7 +107,7 @@
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/ThingDef[defName="GD_Sabertooth"]/statBases</xpath>
 				<value>
-					<MeleeCounterParryBonus>0.25</MeleeCounterParryBonus>
+					<MeleeCounterParryBonus>0.89</MeleeCounterParryBonus>
 					<Bulk>1.5</Bulk>
 				</value>
 			</li>
@@ -118,9 +118,9 @@
 				<xpath>Defs/ThingDef[defName="GD_Sabertooth"]</xpath>
 				<value>
 					<equippedStatOffsets>
-						<MeleeCritChance>0.28</MeleeCritChance>
-						<MeleeParryChance>0.25</MeleeParryChance>
-						<MeleeDodgeChance>0.15</MeleeDodgeChance>						
+						<MeleeCritChance>0.40</MeleeCritChance>
+						<MeleeParryChance>0.26</MeleeParryChance>
+						<MeleeDodgeChance>0.40</MeleeDodgeChance>						
 					</equippedStatOffsets>
 				</value>
 			</li>
@@ -175,7 +175,7 @@
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/ThingDef[defName="YP_BingJu"]/statBases</xpath>
 				<value>
-					<MeleeCounterParryBonus>0.25</MeleeCounterParryBonus>				
+					<MeleeCounterParryBonus>1</MeleeCounterParryBonus>				
 					<Bulk>4</Bulk>
 				</value>
 			</li>
@@ -183,9 +183,9 @@
 				<xpath>Defs/ThingDef[defName="YP_BingJu"]</xpath>
 				<value>
 					<equippedStatOffsets>
-						<MeleeCritChance>0.28</MeleeCritChance>
-						<MeleeParryChance>0.1</MeleeParryChance>
-						<MeleeDodgeChance>0.15</MeleeDodgeChance>	
+						<MeleeCritChance>0.63</MeleeCritChance>
+						<MeleeParryChance>0.75</MeleeParryChance>
+						<MeleeDodgeChance>0.20</MeleeDodgeChance>	
 					</equippedStatOffsets>
 				</value>
 			</li>
@@ -210,8 +210,8 @@
 							<capacities>
 								<li>Blunt</li>
 							</capacities>
-							<power>25</power>
-							<cooldownTime>3.2</cooldownTime>
+							<power>28</power>
+							<cooldownTime>2.9</cooldownTime>
 							<armorPenetrationBlunt>50</armorPenetrationBlunt>
 							<linkedBodyPartsGroup>Head</linkedBodyPartsGroup>
 						</li>

@@ -79,10 +79,10 @@
 		<defName>Bullet_556x45mmNATOHybrid_FMJ</defName>
 		<label>5.56mm NATO hybrid bullet (FMJ)</label>
 		<projectile Class="CombatExtended.ProjectilePropertiesCE">
-			<speed>222</speed>
-			<damageAmountBase>16</damageAmountBase>
-			<armorPenetrationSharp>7</armorPenetrationSharp>
-			<armorPenetrationBlunt>49.18</armorPenetrationBlunt>
+			<speed>251</speed>
+			<damageAmountBase>17</damageAmountBase>
+			<armorPenetrationSharp>9</armorPenetrationSharp>
+			<armorPenetrationBlunt>63.32</armorPenetrationBlunt>
 		</projectile>
 	</ThingDef>
 
@@ -90,10 +90,10 @@
 		<defName>Bullet_556x45mmNATOHybrid_AP</defName>
 		<label>5.56mm NATO hybrid bullet (AP)</label>
 		<projectile Class="CombatExtended.ProjectilePropertiesCE">
-			<speed>222</speed>
-			<damageAmountBase>10</damageAmountBase>
-			<armorPenetrationSharp>14</armorPenetrationSharp>
-			<armorPenetrationBlunt>49.18</armorPenetrationBlunt>
+			<speed>251</speed>
+			<damageAmountBase>11</damageAmountBase>
+			<armorPenetrationSharp>18</armorPenetrationSharp>
+			<armorPenetrationBlunt>63.32</armorPenetrationBlunt>
 		</projectile>
 	</ThingDef>
 
@@ -101,10 +101,10 @@
 		<defName>Bullet_556x45mmNATOHybrid_HP</defName>
 		<label>5.56mm NATO hybrid bullet (HP)</label>
 		<projectile Class="CombatExtended.ProjectilePropertiesCE">
-			<speed>222</speed>
-			<damageAmountBase>20</damageAmountBase>
-			<armorPenetrationSharp>4</armorPenetrationSharp>
-			<armorPenetrationBlunt>49.18</armorPenetrationBlunt>
+			<speed>251</speed>
+			<damageAmountBase>22</damageAmountBase>
+			<armorPenetrationSharp>4.5</armorPenetrationSharp>
+			<armorPenetrationBlunt>63.32</armorPenetrationBlunt>
 		</projectile>
 	</ThingDef>
 
@@ -112,14 +112,14 @@
 		<defName>Bullet_556x45mmNATOHybrid_Incendiary</defName>
 		<label>5.56mm NATO hybrid bullet (AP-I)</label>
 		<projectile Class="CombatExtended.ProjectilePropertiesCE">
-			<speed>222</speed>
-		  <damageAmountBase>10</damageAmountBase>
-		  <armorPenetrationSharp>14</armorPenetrationSharp>
-		  <armorPenetrationBlunt>49.18</armorPenetrationBlunt>
+			<speed>251</speed>
+		  <damageAmountBase>11</damageAmountBase>
+		  <armorPenetrationSharp>18</armorPenetrationSharp>
+		  <armorPenetrationBlunt>63.32</armorPenetrationBlunt>
 		  <secondaryDamage>
 			<li>
 			  <def>Flame_Secondary</def>
-			  <amount>6</amount>
+			  <amount>5</amount>
 			</li>
 		  </secondaryDamage>
 		</projectile>
@@ -129,14 +129,14 @@
 		<defName>Bullet_556x45mmNATOHybrid_HE</defName>
 		<label>5.56mm NATO hybrid bullet (HE)</label>
 		<projectile Class="CombatExtended.ProjectilePropertiesCE">
-			<speed>222</speed>
-		  <damageAmountBase>16</damageAmountBase>
-		  <armorPenetrationSharp>7</armorPenetrationSharp>
-		  <armorPenetrationBlunt>49.18</armorPenetrationBlunt>
+			<speed>251</speed>
+		  <damageAmountBase>17</damageAmountBase>
+		  <armorPenetrationSharp>9</armorPenetrationSharp>
+		  <armorPenetrationBlunt>63.32</armorPenetrationBlunt>
 		  <secondaryDamage>
 				<li>
 			  	<def>Bomb_Secondary</def>
-			  	<amount>9</amount>
+			  	<amount>8</amount>
 				</li>
 		  </secondaryDamage>
 		</projectile>
@@ -146,10 +146,10 @@
 		<defName>Bullet_556x45mmNATOHybrid_Sabot</defName>
 		<label>5.56mm NATO hybrid bullet (Sabot)</label>
 		<projectile Class="CombatExtended.ProjectilePropertiesCE">
-		  <damageAmountBase>8</damageAmountBase>
-		  <armorPenetrationSharp>24.5</armorPenetrationSharp>
-		  <armorPenetrationBlunt>63.66</armorPenetrationBlunt>
-		  <speed>332</speed>
+		  <damageAmountBase>9</damageAmountBase>
+		  <armorPenetrationSharp>31.5</armorPenetrationSharp>
+		  <armorPenetrationBlunt>80.52</armorPenetrationBlunt>
+		  <speed>277</speed>
 		</projectile>
 	  </ThingDef>
 
